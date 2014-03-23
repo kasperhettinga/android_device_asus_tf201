@@ -1,13 +1,13 @@
 # Inherit device configuration for tf201.
 $(call inherit-product, device/asus/tf201/full_tf201.mk)
 
-# Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+# Inherit some common nameless stuff.
+$(call inherit-product, vendor/nameless/config/common.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_tf201
+PRODUCT_NAME := nameless_tf201
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := tf201
 PRODUCT_MODEL := EPAD
